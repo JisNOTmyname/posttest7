@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    min-height: 150vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background: rgb(255, 0, 0, 1);
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    background: #f8f9f9;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 25px #181a18;
+    max-width: 1300px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+.container .tambah-btn{
+    /* height: 50px;
+    width: 100px;
+    color: #fff;
+    /* display: flex; */
+    font-size: 1.3rem;
+    /* border: none; */
+    outline: none;
+    /* align-items: center;
+    justify-content: center; */
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: 400;
+    transition: all 0.3s ease-in-out; 
+}
+
+
+
+.container h1 {
+    background-color: red;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    align-items: center;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+table, th, td {
+    border: 1px solid #ccc;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+a {
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+a:hover {
+    background-color: #0056b3;
+}

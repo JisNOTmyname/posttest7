@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: red;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    display: block;
+    margin-top: 10px;
+}
+
+
+input[name="Email"] {
+    background: url('email-icon.png') no-repeat scroll 10px 10px;
+    padding-left: 40px;
+}
+
+input[name="Phone"] {
+    background: url('phone-icon.png') no-repeat scroll 10px 10px;
+    padding-left: 40px;
+}
+
+input[name="Address"] {
+    background: url('address-icon.png') no-repeat scroll 10px 10px;
+    padding-left: 40px;
+}
